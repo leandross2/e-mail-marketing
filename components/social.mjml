@@ -1,0 +1,28 @@
+<mj-section background-color="#ffffff" padding="20px">
+  <mj-column>
+    <mj-text align="center" color="#2ecc71"> STAY CONNECTED WITH US </mj-text>
+    <mj-social icon-size="40px">
+      <mj-social-element
+        src="images/facebook.png"
+        href="https://facebook.com"
+        padding="0 20px"
+      />
+      <mj-social-element
+        src="images/twitter.png"
+        href="https://twitter.com"
+        padding="0 20px"
+      />
+      <mj-social-element
+        src="images/instagram.png"
+        href="https://instagram.com"
+        padding="0 20px"
+      />
+
+      <mj-social-element
+        src="images/youtube.png"
+        href="https://youtube.com"
+        padding="0 20px"
+      />
+    </mj-social>
+  </mj-column>
+</mj-section>

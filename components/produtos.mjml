@@ -1,0 +1,64 @@
+<mj-section background-color="#ffffff" padding="20px 0">
+  <!-- PRODUTO 1 -->
+  <mj-column
+    background-color="#eeeeee"
+    border="5px solid #FFF"
+    padding="10px 5px"
+  >
+    <mj-text align="center" font-size="14px">
+      KOMONO Winston Gold Wood Watch
+    </mj-text>
+
+    <mj-text align="center" font-size="12px" color="#999">
+      Online Only
+    </mj-text>
+
+    <mj-image src="images/produto1.png" padding="10px 0" />
+
+    <mj-text align="center"><strong>R$ 90,00</strong></mj-text>
+
+    <mj-button background-color="#2ecc71" color="#ffffff"> Shop now </mj-button>
+  </mj-column>
+
+  <!-- PRODUTO 2 -->
+  <mj-column
+    background-color="#eeeeee"
+    border="5px solid #FFF"
+    padding="10px 5px"
+  >
+    <mj-text align="center" font-size="14px">
+      Icon Brand Mega<br />Mix Necklace
+    </mj-text>
+
+    <mj-text align="center" font-size="12px" color="#999">
+      Online Only
+    </mj-text>
+
+    <mj-image src="images/produto2.png" padding="10px 0" />
+
+    <mj-text align="center"><strong>R$ 25,00</strong></mj-text>
+
+    <mj-button background-color="#2ecc71" color="#ffffff"> Shop now </mj-button>
+  </mj-column>
+
+  <!-- PRODUTO 3 -->
+  <mj-column
+    background-color="#eeeeee"
+    border="5px solid #FFF"
+    padding="10px 5px 10px 5px"
+  >
+    <mj-text align="center" font-size="14px">
+      Ray-Ban Classic<br />Gold Wood Watch
+    </mj-text>
+
+    <mj-text align="center" font-size="12px" color="#999">
+      Online Only
+    </mj-text>
+
+    <mj-image src="images/produto3.png" padding="10px 0" />
+
+    <mj-text align="center"><strong>R$ 150,00</strong></mj-text>
+
+    <mj-button background-color="#2ecc71" color="#ffffff"> Shop now </mj-button>
+  </mj-column>
+</mj-section>

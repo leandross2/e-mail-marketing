@@ -1,0 +1,129 @@
+<mjml>
+  <mj-body background-color="#f4f4f4" width="600px">
+    <!-- LOGO -->
+    <mj-section background-color="#ffffff" padding="20px 0">
+      <mj-column>
+        <mj-image
+          src="images/logo.png"
+          href="http://www.rockinshop.com.br/"
+          width="200px"
+          align="center"
+          padding="0"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- MENU  -->
+    <mj-include path="./components/navBar.mjml" />
+    <!-- BANNER -->
+    <mj-section padding="0" background-color="#ffffff">
+      <mj-column>
+        <mj-image
+          src="images/bannerPrincipal.png"
+          href="http://www.rockinshop.com.br/sale/"
+          padding="0"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- PRODUTOS -->
+    <mj-include path="./components/produtos.mjml" />
+
+    <!-- NEW ARRIVALS -->
+    <mj-section background-color="#2ecc71">
+      <mj-column>
+        <mj-text color="#ffffff" font-weight="bold" font-size="16px">
+          NEW ARRIVALS
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- DESTAQUE -->
+    <mj-section background-color="#ffffff" padding="20px">
+      <mj-column width="50%">
+        <mj-image src="images/banner2.png" />
+      </mj-column>
+
+      <mj-column width="50%">
+        <mj-text font-size="16px" font-weight="bold">
+          CPO 9" Crosby Printed Chino Short
+        </mj-text>
+
+        <mj-text font-size="14px">
+          CPO is informed by the functionality of the to creating practical
+          modern menswear.
+        </mj-text>
+
+        <mj-text><strong>R$ 90,00</strong></mj-text>
+
+        <mj-button
+          background-color="#ffffff"
+          color="#000000"
+          border="1px solid #000000"
+        >
+          Shop now
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- BANNER FINAL -->
+    <mj-section
+      padding="0"
+      background-url="images/banner3.png"
+      background-repeat="no-repeat"
+      background-position="center center"
+    >
+      <mj-column width="50%">
+        <mj-spacer height="50px" />
+        <mj-button
+          background-color="#ffffff"
+          color="#000000"
+          align="center"
+          font-size="14px"
+          padding="5px 0"
+          width="50%"
+          href="URL que fiquei com preguiça de procurar"
+        >
+          Shop Jackets
+        </mj-button>
+        <mj-spacer height="250px" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-spacer height="250px" />
+        <mj-button
+          background-color="#000000"
+          color="#ffffff"
+          align="center"
+          font-size="14px"
+          padding="5px 0"
+          width="50%"
+          href="URL que fiquei com preguiça de procurar"
+        >
+          Shop Pants
+        </mj-button>
+        <mj-spacer height="50px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- MENU FOOTER -->
+    <mj-include path="./components/navBar.mjml" />
+
+    <!-- SOCIAL -->
+    <mj-include path="./components/social.mjml" />
+
+    <!-- FOOTER -->
+    <mj-section background-color="#ffffff" padding="20px">
+      <mj-column>
+        <mj-text font-size="12px" color="#666">
+          This is Photoshop's version of Lorem Ipsum...
+        </mj-text>
+
+        <mj-text align="center" font-size="12px">
+          <a href="#" style="color: #666; text-decoration: none">View Online</a>
+          &nbsp;|&nbsp;
+          <a href="#" style="color: #666; text-decoration: none">Unsubscribe</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
